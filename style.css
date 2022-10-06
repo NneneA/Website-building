@@ -37,15 +37,7 @@ p {
   font-size: 20px;
   line-height: normal;
 }
-a {
-  text-decoration: none;
-  color: #0000ff;
-  display: block;
-  text-align: center;
-}
-a:hover {
-  text-decoration: underline;
-}
+
 button {
   background-color: #f29f21;
   border: 1px solid #f29f21;
@@ -64,6 +56,17 @@ button:hover {
   border: 1px solid #f29f21;
   cursor: pointer;
 }
+
+.wiki-link {
+  text-decoration: none;
+  color: #0000ff;
+  display: block;
+  text-align: center;
+}
+.wiki-link:hover {
+  text-decoration: underline;
+}
+
 .images {
   text-align: center;
   border-spacing: 5px;
@@ -83,4 +86,17 @@ button:hover {
   padding-top: 27px;
   width: 300px;
   background-color: #ffffff;
+}
+
+footer {
+  text-align: center;
+}
+
+.gh-link {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.gh-link:hover {
+  text-decoration: underline;
 }
